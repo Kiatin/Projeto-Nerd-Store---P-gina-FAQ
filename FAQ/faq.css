@@ -1,0 +1,139 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    list-style: none;
+
+}
+
+body {
+      font-family: 'Poppins';
+      font-size: x-small;
+      text-align: center;
+}
+
+.search {
+    --padding: 14px;
+    width: max-content;
+    display: flex;
+    align-items: center;
+    padding: var(--padding);
+    border-radius: 28px;
+    background-color: #f6f6f6;
+    width: 650px;
+    transition: box-shadow 0,25s;
+    margin-right: 90px;
+}
+
+.search:focus-within {
+    box-shadow: 0 0 2px rgba(0, 0, 0, 0.75);
+}
+
+.search-input {
+    font-size: 16px;
+    font-family: "Poppins";
+    color: #333333;
+    margin-left: var(--padding);
+    outline: none;
+    border: none;
+    background: transparent;
+    flex: 1;
+}
+
+.search-input::placeholder,
+    .search-icon {
+    color: rgba(0, 0, 0, 0.5);
+}
+
+.nav {
+    display: flex;
+    background-color: #850000;
+    color: white;
+    justify-content: space-between;
+    align-items: center;
+    padding-right: 110px;
+    padding-left: 45px;
+}
+
+.nav ul {
+    display: flex;
+}
+
+.nav li {
+        display: flex;
+        padding: 15px;
+        padding-left: 10px;
+}
+
+.nav2 {
+    display: flex;
+    background-color: #850000;
+    color: white;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 90px;
+}
+
+.nav2 ul {
+    display: flex;
+}
+
+.nav2 li {
+    display: flex;
+    padding: 15px;
+    font-size: 7px;
+    padding-left: 155px;
+    
+}
+
+.icons {
+    margin-right: 20px;
+}
+
+.pergunta1 p {
+    display: flex;
+    font-size: large;
+    margin-top: 35px;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+.pergunta2 h1 { 
+              margin-top: 35px;
+}
+
+.pergunta2 p {
+    display: flex;
+    font-size: large;
+    margin-top: 35px;
+    margin-left: 30px;
+    margin-right: 30px;
+    margin-bottom: 35px;
+}
+
+.pergunta3 p {
+    display: flex;
+    justify-content: center;
+    font-size: large;
+    margin-top: 35px;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+footer {
+	background-color: #000000;
+	color: #fff;
+	padding: 20px;
+	text-align: center;
+	margin-top: 50px;
+    font-size: 20px;
+}
+
+footer:hover{
+    color: #f6f6f6;
+}
+
+ li a{
+    color: #fff
+ }
+
+ 
